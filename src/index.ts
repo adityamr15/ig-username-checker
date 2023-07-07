@@ -39,5 +39,3 @@ class IGUsernameChecker {
 }
 
 export default new IGUsernameChecker();
-
-new IGUsernameChecker().getDetail('adityamr15').then((res) => console.log(res));
